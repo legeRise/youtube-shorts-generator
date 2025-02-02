@@ -4,7 +4,10 @@ import re
 from youtube_short_generator import YoutubeShortGenerator
 
 def main():
-    st.title("YouTube Shorts Generator 🎥")
+    st.markdown(
+    "<h1 style='text-align: center;'>YT Shorts Generator</h1>",
+    unsafe_allow_html=True
+    )
     st.markdown("<p style='text-align: center;'>Leave a Like if it works for you! ❤️</p>", unsafe_allow_html=True)
     
     # User Input
