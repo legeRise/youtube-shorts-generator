@@ -5,7 +5,7 @@ from youtube_short_generator import YoutubeShortGenerator
 
 def main():
     st.title("YouTube Shorts Generator 🎥")
-    st.write("Generate AI-powered YouTube Shorts by just entering a title!")
+    st.markdown("<p style='text-align: center;'>Leave a Like if it works for you! ❤️</p>", unsafe_allow_html=True)
     
     # User Input
     video_title = st.text_input("Enter Video Title:", "Top 3 Marvel Superheroes")

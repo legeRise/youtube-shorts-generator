@@ -1,5 +1,4 @@
 from PIL import Image, ImageDraw, ImageFont,ImageStat,ImageFilter,ImageEnhance
-from django.conf import settings
 import constants
 import os
 
