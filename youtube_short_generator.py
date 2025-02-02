@@ -59,10 +59,6 @@ class YoutubeShortGenerator:
         # generator.generate_image(self.result.title_image_prompt, path=f"{folder_path}/title.png")
         print("Title Prompt: ",self.result.title_image_prompt)
 
-        # generate images using pollinations_ai
-        # title_image = generator.generate_image(self.result.title_image_prompt)
-        # title_image.save(f"{folder_path}/title.png")
-
         # generate images using stable-diffusion-turbo
         generator.generate_image(self.result.title_image_prompt, path=f"{folder_path}/title.png")
 
@@ -75,10 +71,6 @@ class YoutubeShortGenerator:
 
         # Generate and save images
         for index, image_prompt in enumerate(image_prompts):
-            
-            # generate images using pollinations_ai
-            # image = generator.generate_image(image_prompt)  
-            # image.save(f"{folder_path}/{index}.png")
             
             # generate images using stable-diffusion-turbo
             generator.generate_image(image_prompt, f"{folder_path}/{index}.png" )  
