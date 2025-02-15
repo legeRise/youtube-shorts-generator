@@ -12,7 +12,7 @@ class ImageGenerator:
 
             # Make the API request
             result = client.predict(
-    		prompt="Hello!!",
+    		prompt=prompt,
     		width=720,
     		height=1280,
     		api_name="/generate_image")
