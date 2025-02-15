@@ -12,9 +12,10 @@ class ImageGenerator:
 
             # Make the API request
             result = client.predict(
-                param_0=prompt,  # Text prompt for image generation
-                api_name="/predict"
-            )
+    		prompt="Hello!!",
+    		width=720,
+    		height=1280,
+    		api_name="/generate_image")
 
             image = Image.open(result)
             image.save(path)
