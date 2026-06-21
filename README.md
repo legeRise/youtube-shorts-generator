@@ -13,7 +13,6 @@ short_description: top 3, top 5 type video generator
 
 # YouTube Shorts Generator
 
-An old Streamlit experiment for generating simple **"Top 3"** / **"Top 5"** style short videos from a single title.
+An old Streamlit experiment for generating simple **Top 3** / **Top 5** style short videos from one title.
 
-> **Project status:** Old / experimental.  
-> This was one of my earlier attempts at automated short-form video generation. It
+> **Status:** old / experimental. This repo is kept as a record of an early idea. My newer direction for
