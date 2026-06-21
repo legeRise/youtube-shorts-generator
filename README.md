@@ -15,8 +15,4 @@ short_description: top 3, top 5 type video generator
 
 Old Streamlit experiment for generating simple **Top 3** / **Top 5** style short videos from a title.
 
-**Status:** old / experimental. Kept as a record of an early short-video automation idea. Newer work moved toward EzClip.
-
-## What it does
-
--
+**Status:** old / experimental. Kept as a record of an early short-video automation
