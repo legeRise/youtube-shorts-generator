@@ -11,4 +11,9 @@ license: mit
 short_description: top 3, top 5 type video generator
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+# YouTube Shorts Generator
+
+An old Streamlit experiment for generating simple "Top 3" / "Top 5" style short videos from a title.
+
+> **Project status:** Old / experimental.  
+> This was one of my earlier attempts at automated short-form video generation. The newer and more serious direction
